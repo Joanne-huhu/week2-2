@@ -1,0 +1,127 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+/*全域設定*/
+*,*::before,*::after{
+    box-sizing: border-box;  
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Bruno Ace SC", serif;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:inherit;
+}
+/*layout*/
+.header{
+    padding: 40px 0;
+    color: #D1D1D1;
+    background: #000;
+}
+.banner{
+    color: #D1D1D1;
+    background: #000;  
+}
+.banner-title-strong{
+    display: block;
+    text-align: right;
+}
+.intro{
+    background-image: url(img/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+}
+.intro-text{
+    width: 526px;
+}
+.about-list{
+    width: 636px;
+}
+.about-list li{
+    width: 48%;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px #00000014;
+    padding: 16px;
+}
+.about-desc{
+width: 526px;
+}
+/*component*/
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.btn-light{
+    background: #ffffff;
+    color: #000;
+}
+/*pages*/
+
+/*utils*/
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 128px;
+}
+.h2{
+    font-size: 64px;
+}
+.fs-1{
+    font-size: 32px;
+}
+.fs-2{
+    font-size: 24px;
+}
+.fs-3{
+    font-size: 20px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+.mr-6{
+    margin-right: 24px;
+}
+.mb-8{
+    margin-bottom: 32px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.p-40{
+padding: 160px 0;
+}
+.gap-6{
+ gap: 24px;
+}
+.text-primary{
+	color: #00FFA3;
+}
